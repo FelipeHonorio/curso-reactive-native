@@ -1,8 +1,14 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { View } from 'react-native'
 
-function App() {
-    return <Text>Primeiro Component</Text>
-}
+import CompDefault, { Comp1, Comp2 } from './components/Multi'
+import Fist from './components/Fist'
 
-export default App
+export default () => (
+    <View>
+        <CompDefault />
+        <Comp1 />
+        <Comp2 />
+        <Fist />
+    </View>
+)
