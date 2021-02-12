@@ -6,12 +6,13 @@ import Fist from './components/Fist'
 import {MinMax} from './components/MinMax'
 import { Ramdom } from './components/Ramdom'
 import Title from './components/Title'
+import Button from './components/Button'
 
 export default () => (
     <View style={style.App}>
-        <Title primary='Register' secundary="first register" />
-
+        <Button />
         {/*
+        <Title primary='Register' secundary="first register" />
         <Ramdom min={0} max={10} />
         <MinMax min={10} max={20} />
          <CompDefault />
