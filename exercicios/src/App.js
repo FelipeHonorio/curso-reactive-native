@@ -5,14 +5,16 @@ import CompDefault, { Comp1, Comp2 } from './components/Multi'
 import Fist from './components/Fist'
 import {MinMax} from './components/MinMax'
 import { Ramdom } from './components/Ramdom'
+import Title from './components/Title'
 
 export default () => (
     <View style={style.App}>
+        <Title primary='Register' secundary="first register" />
+
+        {/*
         <Ramdom min={0} max={10} />
-        
-        
-        {/* <MinMax min={10} max={20} /> */}
-        {/* <CompDefault />
+        <MinMax min={10} max={20} />
+         <CompDefault />
         <Comp1 />
         <Comp2 />
         <Fist /> */}
